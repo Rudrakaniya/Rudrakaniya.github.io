@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+nav h2 {
+    color: white;
+    letter-spacing: 3px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+li {
+    margin-right: 16px;
+    cursor: pointer;
+    color: white;
+    padding: 16px;
+    border-bottom: 4px solid red;
+}
+
+li:hover {
+    background-color: tomato;
+    border-bottom: 4px solid white;
+}
+
+.image {
+    width: 324px;
+    height: 324px;
+    border-radius: 50%;
+    border: 4px solid black;
+    transition: all 0.5s ease-in;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.info h1{
+ margin: 10px 0;
+}
+
+.info p {
+    width: 60%;
+    text-align: center;
+}
+
+.skill, .projects, footer {
+    margin-top: 16px;
+
+    background-color: red;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.skill > h2, .projects > h2 {
+    margin-bottom: 24px;
+    color: white;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills p {
+    padding: 16px;
+    background-color: tomato;
+    margin-right: 16px;
+    border-radius: 16px;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.skills p:hover {
+    background-color: red;
+}
+
+.card {
+    width: 240px;
+    border-radius: 16px;
+    background-color: white;
+    padding: 10px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+
+.card img {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 16px;
+
+}
+
+.card .body {
+    padding: 16px;
+}
+
+.body h2 {
+    margin-bottom: 8px;
+}
+.projects-view {
+    display: flex;
+}
+
+footer {
+    margin-top: 16px;
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
